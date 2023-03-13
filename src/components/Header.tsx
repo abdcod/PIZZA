@@ -9,7 +9,7 @@ const Header = () => {
     return (
             <div className="header">
                 <div className="container">
-                    <Link to={'/'}>
+                    <Link to={'/PIZZA/'}>
                     <div className="header__logo">
                         <img width="38" src={logoSvg} alt="Pizza logo"/>
                         <div>
@@ -20,7 +20,7 @@ const Header = () => {
                         </Link >
                     <Search />
                     <div className="header__cart">
-                        <Link to={"/cart"} className="button button--cart"><span>520 ₽</span>
+                        <Link to={"/PIZZA/cart"} className="button button--cart"><span>520 ₽</span>
                             <div className="button__delimiter"></div>
                             <svg
                                 width="18"
